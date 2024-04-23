@@ -1,0 +1,43 @@
+header button,
+header .nav-link {
+  color: rgb(108, 108, 108);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+}
+header button:hover,
+header .nav-link:hover {
+  color: rgb(172, 19, 19);
+}
+header .cart {
+  color: black;
+  font-family: Libre Franklin;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media (max-width: 700px) {
+  header button,
+  header .nav-link {
+    letter-spacing: normal;
+  }
+}
+@media (max-width: 425px) {
+  header button,
+  header .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 2px;
+  }
+}/*# sourceMappingURL=Button.css.map */

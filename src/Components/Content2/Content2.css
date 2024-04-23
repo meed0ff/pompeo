@@ -1,0 +1,9 @@
+.content-2 {
+  padding-top: 60px;
+}
+.content-2 .container {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}/*# sourceMappingURL=Content2.css.map */

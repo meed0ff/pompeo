@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.log-reg {
+  margin: 60px 0;
+}
+.log-reg .container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.log-reg .container form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.log-reg .container form div input {
+  border: 1px solid rgb(161, 161, 161);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 12px;
+  outline: none;
+}
+.log-reg .container form div input::-moz-placeholder {
+  color: rgb(161, 161, 161);
+}
+.log-reg .container form div input::placeholder {
+  color: rgb(161, 161, 161);
+}
+.log-reg .container form div button {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  outline: none;
+  border: 1px solid black;
+  background: black;
+  text-transform: uppercase;
+  padding: 12px;
+}
+.log-reg .container form label {
+  color: rgb(161, 161, 161);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+.log-reg .container form label input {
+  background: blue;
+}
+
+@media (max-width: 350px) {
+  .log-reg .container form div {
+    flex-direction: column;
+  }
+  .log-reg .container form div input {
+    width: 100%;
+  }
+  .log-reg .container form div button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=LogReg.css.map */

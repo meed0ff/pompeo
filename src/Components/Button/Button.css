@@ -1,0 +1,15 @@
+.btn {
+  background-color: #ac1313;
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 20px auto;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=Button.css.map */

@@ -1,0 +1,27 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.product img {
+  width: 100%;
+  border: 2px dashed rgb(229, 229, 229);
+}
+.product .content {
+  padding: 15px 0;
+  border-bottom: 2px solid rgb(229, 229, 229);
+}
+.product .content h5 {
+  color: rgb(108, 108, 108);
+  font-family: Libre Franklin;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.product .content p {
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}/*# sourceMappingURL=Product.css.map */
