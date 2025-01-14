@@ -45,7 +45,7 @@ function App() {
       <LogReg />
       <Footer />
 
-      <ImgVidModal />
+{/*       <ImgVidModal /> */}
     </>
   );
 }
